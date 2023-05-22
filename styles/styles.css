@@ -1,567 +1,413 @@
 /* Fuentes */
 /* Rubik */
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap");
 
 /* Inconsolata */
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 
-body {
-    background-color: #2C3333;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='250' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.06'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/svg%3E");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
 }
 
 header {
-    height: 60px;
+  width: 9vh;
+  height: 9vh;
 }
 
-#logo {
-    font-family: 'Rubik Pixels', cursive;
-    font-size: 50px;
-    color: #ffffff;
-    margin: 10px 25px;
+header #logo {
+  margin: 0.5vh;
+  padding: 1vh;
+  font-size: 6.5vh;
+  color: #fff;
+  font-family: "Rubik Pixels", cursive;
 }
 
-/* Areas de encriptado */
-
-.encriptado-desencriptado {
-    text-align: center;
+body {
+  background-color: #2c3333;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='250' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.06'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-.encriptado-desencriptado textarea{
-    font-family: 'Inconsolata', monospace;
-    font-weight: bold;
-    margin: 25px;
-    margin-left: 50px;
-    background-color: #f2f2f2cb;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 3px 0px 44px -4px rgba(32, 31, 31, 0.733);
-    -webkit-box-shadow: 3px 0px 44px -4px rgba(32, 31, 31, 0.733);
-    -moz-box-shadow: 3px 0px 44px -4px rgba(32, 31, 31, 0.733);
+main .areas {
+  text-align: center;
 }
 
-#encriptar{
-    padding-bottom: 70px;
+.areas textarea {
+  height: 35vh;
+  width: 30vh;
+  margin: 0.5vh;
 }
 
-/* BOTONES */
+main #botones-derecha,
 #botones-izquierda {
-    margin-left: 340px;
+  text-align: center;
 }
 
+main #botones-derecha button,
 #botones-izquierda button {
-    display: inline-block;
-    margin-left: 8px;
+  font-size: 18px;
+  background-color: #2c3333;
+  color: #fff;
+  padding: 13px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.137);
 }
 
-#botones-derecha {
-    margin-right: 330px;
+footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 1vh;
+  color: #fff;
 }
 
-#botones-derecha button {
-    margin-right: 10px;
-    margin-left: 12px;
-    float: right;
-}
-/* ENCRIPTAR */
-/* Creditos: @Galahhad */
-.ui-btn {
-    border-radius: 10px;
-    --btn-default-bg: rgb(41, 41, 41);
-    --btn-padding: 15px 20px;
-    --btn-hover-bg: rgb(51, 51, 51);
-    --btn-transition: .3s;
-    --btn-letter-spacing: .1rem;
-    --btn-animation-duration: 1.2s;
-    --btn-shadow-color: rgba(0, 0, 0, 0.137);
-    --btn-shadow: 0 2px 10px 0 var(--btn-shadow-color);
-    --hover-btn-color: #42ac1e;
-    --default-btn-color: #fff;
-    --font-size: 16px;
-    /* 👆 this field should not be empty */
-    --font-weight: 600;
-    --font-family: Menlo,Roboto Mono,monospace;
-    /* 👆 this field should not be empty */
+@media screen and (min-width: 480px) {
+  .areas textarea {
+    height: 55vh;
+    width: 60vh;
+    margin: 2vh;
+    font-weight: bold;
   }
-  
-  /* button settings 👆 */
-  
-  .ui-btn {
+
+  main #botones-derecha button,
+  #botones-izquierda button {
+    display: inline-block;
+  }
+
+  main #botones-derecha button {
+    margin-top: 2vh;
+  }
+
+  main #botones-izquierda button {
+    margin-bottom: 3vh;
+  }
+
+  /* ENCRIPTAR */
+  /* Creditos: @Galahhad */
+
+  .btn-encriptar {
     box-sizing: border-box;
-    padding: var(--btn-padding);
+    padding: 15px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--default-btn-color);
-    font: var(--font-weight) var(--font-size) var(--font-family);
-    background: var(--btn-default-bg);
+    color: #fff;
+    font: 600 16px Menlo, Roboto Mono, monospace;
+    background: rgb(41, 41, 41);
     border: none;
+    border-radius: 10px;
     cursor: pointer;
-    transition: var(--btn-transition);
+    transition: 0.3s;
     overflow: hidden;
-    box-shadow: var(--btn-shadow);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.137);
   }
-  
-  .ui-btn span {
-    letter-spacing: var(--btn-letter-spacing);
-    transition: var(--btn-transition);
+
+  .btn-encriptar span {
+    letter-spacing: 0.1rem;
+    transition: 0.3s;
     box-sizing: border-box;
     position: relative;
     background: inherit;
   }
-  
-  .ui-btn span::before {
+
+  .btn-encriptar span::before {
     box-sizing: border-box;
     position: absolute;
     content: "";
     background: inherit;
   }
-  
-  .ui-btn:hover, .ui-btn:focus {
-    background: var(--btn-hover-bg);
+
+  .btn-encriptar:hover,
+  .btn-encriptar:focus {
+    background: rgb(51, 51, 51);
   }
-  
-  .ui-btn:hover span, .ui-btn:focus span {
-    color: var(--hover-btn-color);
+
+  .btn-encriptar:hover span,
+  .btn-encriptar:focus span {
+    color: #42ac1e;
   }
-  
-  .ui-btn:hover span::before, .ui-btn:focus span::before {
-    animation: chitchat linear both var(--btn-animation-duration);
+
+  .btn-encriptar:hover span::before,
+  .btn-encriptar:focus span::before {
+    animation: chitchat linear both 1.2s;
   }
-  
+
   @keyframes chitchat {
     0% {
       content: "#";
     }
-  
+
     5% {
       content: ".";
     }
-  
+
     10% {
       content: "^{";
     }
-  
+
     15% {
       content: "-!";
     }
-  
+
     20% {
       content: "#$_";
     }
-  
+
     25% {
       content: "№:0";
     }
-  
+
     30% {
-      content: "#{+.";
+      content: "#{+.";}35%{content: "@}-?";
     }
-  
-    35% {
-      content: "@}-?";
-    }
-  
+
     40% {
       content: "?{4@%";
     }
-  
+
     45% {
       content: "=.,^!";
     }
-  
+
     50% {
       content: "?2@%";
     }
-  
+
     55% {
       content: "\;1}]";
     }
-  
+
     60% {
       content: "?{%:%";
       right: 0;
     }
-  
+
     65% {
       content: "|{f[4";
       right: 0;
     }
-  
+
     70% {
       content: "{4%0%";
       right: 0;
     }
-  
+
     75% {
       content: "'1_0<";
       right: 0;
     }
-  
+
     80% {
       content: "{0%";
       right: 0;
     }
-  
+
     85% {
       content: "]>'";
       right: 0;
     }
-  
+
     90% {
       content: "4";
       right: 0;
     }
-  
+
     95% {
       content: "2";
       right: 0;
     }
-  
+
     100% {
       content: "";
       right: 0;
     }
   }
-
 
   /* DESENCRIPTAR */
-  .ui-btn2 {
-    border-radius: 10px;
-    --btn-default-bg: rgb(41, 41, 41);
-    --btn-padding: 15px 20px;
-    --btn-hover-bg: rgb(51, 51, 51);
-    --btn-transition: .3s;
-    --btn-letter-spacing: .1rem;
-    --btn-animation-duration: 1.2s;
-    --btn-shadow-color: rgba(0, 0, 0, 0.137);
-    --btn-shadow: 0 2px 10px 0 var(--btn-shadow-color);
-    --hover-btn-color: #e01818;
-    --default-btn-color: #fff;
-    --font-size: 16px;
-    /* 👆 this field should not be empty */
-    --font-weight: 600;
-    --font-family: Menlo,Roboto Mono,monospace;
-    /* 👆 this field should not be empty */
-  }
-  
-  /* button settings 👆 */
-  
-  .ui-btn2 {
+
+  .btn-desencriptar {
     box-sizing: border-box;
-    padding: var(--btn-padding);
+    padding: 15px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--default-btn-color);
-    font: var(--font-weight) var(--font-size) var(--font-family);
-    background: var(--btn-default-bg);
+    color: #fff;
+    font: 600 16px Menlo, Roboto Mono, monospace;
+    background: rgb(41, 41, 41);
     border: none;
+    border-radius: 10px;
     cursor: pointer;
-    transition: var(--btn-transition);
+    transition: 0.3s;
     overflow: hidden;
-    box-shadow: var(--btn-shadow);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.137);
   }
-  
-  .ui-btn2 span {
-    letter-spacing: var(--btn-letter-spacing);
-    transition: var(--btn-transition);
+
+  .btn-desencriptar span {
+    letter-spacing: 0.1rem;
+    transition: 0.3s;
     box-sizing: border-box;
     position: relative;
     background: inherit;
   }
-  
-  .ui-btn2 span::before {
+
+  .btn-desencriptar span::before {
     box-sizing: border-box;
     position: absolute;
     content: "";
     background: inherit;
   }
-  
-  .ui-btn2:hover, .ui-btn2:focus {
-    background: var(--btn-hover-bg);
+
+  .btn-desencriptar:hover,
+  .btn-desencriptar:focus {
+    background: rgb(51, 51, 51);
   }
-  
-  .ui-btn2:hover span, .ui-btn2:focus span {
-    color: var(--hover-btn-color);
+
+  .btn-desencriptar:hover span,
+  .btn-desencriptar:focus span {
+    color: #d80d0d;
   }
-  
-  .ui-btn2:hover span::before, .ui-btn2:focus span::before {
-    animation: chitchat linear both var(--btn-animation-duration);
+
+  .btn-desencriptar:hover span::before,
+  .btn-desencriptar:focus span::before {
+    animation: chitchat linear both 1.2s;
   }
-  
+
   @keyframes chitchat {
     0% {
       content: "#";
     }
-  
+
     5% {
       content: ".";
     }
-  
+
     10% {
       content: "^{";
     }
-  
+
     15% {
       content: "-!";
     }
-  
+
     20% {
       content: "#$_";
     }
-  
+
     25% {
       content: "№:0";
     }
-  
+
     30% {
-      content: "#{+.";
+      content: "#{+.";}35%{content: "@}-?";
     }
-  
-    35% {
-      content: "@}-?";
-    }
-  
+
     40% {
       content: "?{4@%";
     }
-  
+
     45% {
       content: "=.,^!";
     }
-  
+
     50% {
       content: "?2@%";
     }
-  
+
     55% {
       content: "\;1}]";
     }
-  
+
     60% {
       content: "?{%:%";
       right: 0;
     }
-  
+
     65% {
       content: "|{f[4";
       right: 0;
     }
-  
+
     70% {
       content: "{4%0%";
       right: 0;
     }
-  
+
     75% {
       content: "'1_0<";
       right: 0;
     }
-  
+
     80% {
       content: "{0%";
       right: 0;
     }
-  
+
     85% {
       content: "]>'";
       right: 0;
     }
-  
+
     90% {
       content: "4";
       right: 0;
     }
-  
+
     95% {
       content: "2";
       right: 0;
     }
-  
+
     100% {
       content: "";
       right: 0;
     }
   }
 
+  /* COPIAR */
 
-  /* LIMPIAR */
-/* CREDITOS: @hannahyockel */
-  #boton-borrar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    border: 0px solid transparent;
-    background-color: rgb(41, 41, 41);
-    border-radius: 1.25em;
-    transition: all 0.2s linear;
-    --button-diameter: 40px;
-   }
-   
-   #boton-borrar:hover {
-    background-color: rgba(41, 41, 41, 0.877);
-    box-shadow: 3.4px 2.5px 4.9px rgba(0, 0, 0, 0.025),
-     8.6px 6.3px 12.4px rgba(0, 0, 0, 0.035),
-     17.5px 12.8px 25.3px rgba(0, 0, 0, 0.045),
-     36.1px 26.3px 52.2px rgba(0, 0, 0, 0.055),
-     99px 72px 143px rgba(0, 0, 0, 0.08);
-   }
-   
-   .tooltips {
-    position: relative;
-    display: inline-block;
-   }
-
-/* COPIAR */
-
-/* tooltip settings 👇 */
-
-.copy {
-    /* button */
-    --button-bg: #353434;
-    --button-hover-bg: #464646;
-    --button-text-color: #CCCCCC;
-    --button-hover-text-color: #8bb9fe;
-    --button-border-radius: 10px;
-    --button-diameter: 40px;
-    --button-outline-width: 1px;
-    --button-outline-color: rgb(141, 141, 141);
-    /* tooltip */
-    --tooltip-bg: #f4f3f3;
-    --toolptip-border-radius: 4px;
-    --tooltip-font-family: Menlo, Roboto Mono, monospace;
-    /* 👆 this field should not be empty */
-    --tooltip-font-size: 12px;
-    /* 👆 this field should not be empty */
-    --tootip-text-color: rgb(50, 50, 50);
-    --tooltip-padding-x: 7px;
-    --tooltip-padding-y: 7px;
-    --tooltip-offset: 8px;
-    /* --tooltip-transition-duration: 0.3s; */
-    /* 👆 if you need a transition, 
-    just remove the comment,
-    but I didn't like the transition :| */
-  }
-  
-  .copy {
+  .btn-copy {
     box-sizing: border-box;
-    width: var(--button-diameter);
-    height: var(--button-diameter);
-    border-radius: var(--button-border-radius);
-    background-color: var(--button-bg);
-    color: var(--button-text-color);
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font: 600 16px Menlo, Roboto Mono, monospace;
+    background: rgb(41, 41, 41);
     border: none;
+    border-radius: 10px;
     cursor: pointer;
-    position: relative;
-    outline: none;
-  }
-  
-  .tooltip {
-    position: absolute;
-    opacity: 0;
-    visibility: 0;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    white-space: nowrap;
-    font: var(--tooltip-font-size) var(--tooltip-font-family);
-    color: var(--tootip-text-color);
-    background: var(--tooltip-bg);
-    padding: var(--tooltip-padding-y) var(--tooltip-padding-x);
-    border-radius: var(--toolptip-border-radius);
-    pointer-events: none;
-    transition: all var(--tooltip-transition-duration) cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .tooltip::before {
-    content: attr(data-text-initial);
-  }
-  
-  .tooltip::after {
-    content: "";
-    position: absolute;
-    bottom: calc(var(--tooltip-padding-y) / 2 * -1);
-    width: var(--tooltip-padding-y);
-    height: var(--tooltip-padding-y);
-    background: inherit;
-    left: 50%;
-    transform: translateX(-50%) rotate(45deg);
-    z-index: -999;
-    pointer-events: none;
-  }
-  
-  .copy svg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .checkmark {
-    display: none;
-  }
-  
-  /* actions */
-  
-  .copy:hover .tooltip,
-  .copy:focus:not(:focus-visible) .tooltip {
-    opacity: 1;
-    visibility: visible;
-    top: calc((100% + var(--tooltip-offset)) * -1);
-  }
-  
-  .copy:focus:not(:focus-visible) .tooltip::before {
-    content: attr(data-text-end);
-  }
-  
-  .copy:focus:not(:focus-visible) .clipboard {
-    display: none;
-  }
-  
-  .copy:focus:not(:focus-visible) .checkmark {
-    display: block;
-  }
-  
-  .copy:hover,
-  .copy:focus {
-    background-color: var(--button-hover-bg);
-  }
-  
-  .copy:active {
-    outline: var(--button-outline-width) solid var(--button-outline-color);
-  }
-  
-  .copy:hover svg {
-    color: var(--button-hover-text-color);
+    overflow: hidden;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.137);
   }
 
-  /* FOOTER */
+  /* BORRAR */
+  .btn-borrar {
+    box-sizing: border-box;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font: 600 16px Menlo, Roboto Mono, monospace;
+    background: rgb(41, 41, 41);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.137);
+  }
+
+  .btn-borrar span:hover {
+    color: #ffffff00;
+    transition: 1s;
+  }
+
   footer {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    color: #f2f2f2;
-    margin-top: 60px;
+    margin-top: 3vh;
   }
-
-  footer p {
-    display: inline;
-  }
-  #github img{
-    float: left;
-    margin: 0;
-    margin-left: 70px;
-    padding: auto;
-    display: inline;
-  }
-
-  #linkedin img{
-    float: right;
-    margin: 0;
-    margin-right: 70px;
-    padding: auto;
-    display: inline;
-  }
+}
