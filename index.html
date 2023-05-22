@@ -14,47 +14,29 @@
         <h1 id="logo">EK</h1>
     </header>
     <main>
-        <div class="encriptado-desencriptado">
-            <textarea id="encriptar" cols="46" rows="20" placeholder="Ingrese su texto aqui..." required></textarea>
-        
+        <div class="areas">
+            <textarea id="encriptar" cols="40" rows="25" placeholder="Ingrese su texto aqui..." required></textarea>
             <textarea id="encriptado" cols="40" rows="25" placeholder="Resultado final"></textarea>
-            <div id="botones-derecha">
-                <button id="boton-borrar" class="tooltips">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" height="25" width="25">
-                      <path fill="#f2f2f2" d="M8.78842 5.03866C8.86656 4.96052 8.97254 4.91663 9.08305 4.91663H11.4164C11.5269 4.91663 11.6329 4.96052 11.711 5.03866C11.7892 5.11681 11.833 5.22279 11.833 5.33329V5.74939H8.66638V5.33329C8.66638 5.22279 8.71028 5.11681 8.78842 5.03866ZM7.16638 5.74939V5.33329C7.16638 4.82496 7.36832 4.33745 7.72776 3.978C8.08721 3.61856 8.57472 3.41663 9.08305 3.41663H11.4164C11.9247 3.41663 12.4122 3.61856 12.7717 3.978C13.1311 4.33745 13.333 4.82496 13.333 5.33329V5.74939H15.5C15.9142 5.74939 16.25 6.08518 16.25 6.49939C16.25 6.9136 15.9142 7.24939 15.5 7.24939H15.0105L14.2492 14.7095C14.2382 15.2023 14.0377 15.6726 13.6883 16.0219C13.3289 16.3814 12.8414 16.5833 12.333 16.5833H8.16638C7.65805 16.5833 7.17054 16.3814 6.81109 16.0219C6.46176 15.6726 6.2612 15.2023 6.25019 14.7095L5.48896 7.24939H5C4.58579 7.24939 4.25 6.9136 4.25 6.49939C4.25 6.08518 4.58579 5.74939 5 5.74939H6.16667H7.16638ZM7.91638 7.24996H12.583H13.5026L12.7536 14.5905C12.751 14.6158 12.7497 14.6412 12.7497 14.6666C12.7497 14.7771 12.7058 14.8831 12.6277 14.9613C12.5495 15.0394 12.4436 15.0833 12.333 15.0833H8.16638C8.05588 15.0833 7.94989 15.0394 7.87175 14.9613C7.79361 14.8831 7.74972 14.7771 7.74972 14.6666C7.74972 14.6412 7.74842 14.6158 7.74584 14.5905L6.99681 7.24996H7.91638Z" clip-rule="evenodd" fill-rule="evenodd"></path>
-                    </svg>
-                  </button>
-    
-                  <button id="boton-copiar" class="copy">
-                      <svg xml:space="preserve" style="enable-background:new 0 0 512 512" viewBox="0 0 6.35 6.35" y="0" x="0" height="20" width="20" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" class="clipboard">
-                        <g>
-                          <path fill="currentColor" d="M2.43.265c-.3 0-.548.236-.573.53h-.328a.74.74 0 0 0-.735.734v3.822a.74.74 0 0 0 .735.734H4.82a.74.74 0 0 0 .735-.734V1.529a.74.74 0 0 0-.735-.735h-.328a.58.58 0 0 0-.573-.53zm0 .529h1.49c.032 0 .049.017.049.049v.431c0 .032-.017.049-.049.049H2.43c-.032 0-.05-.017-.05-.049V.843c0-.032.018-.05.05-.05zm-.901.53h.328c.026.292.274.528.573.528h1.49a.58.58 0 0 0 .573-.529h.328a.2.2 0 0 1 .206.206v3.822a.2.2 0 0 1-.206.205H1.53a.2.2 0 0 1-.206-.205V1.529a.2.2 0 0 1 .206-.206z"></path>
-                        </g>
-                      </svg>
-                      <svg xml:space="preserve" style="enable-background:new 0 0 512 512" viewBox="0 0 24 24" y="0" x="0" height="18" width="18" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" class="checkmark">
-                        <g>
-                          <path data-original="#000000" fill="currentColor" d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z"></path>
-                        </g>
-                      </svg>
-                    </span>
-                  </button>
-            </div>
+        </div>
+        <div id="botones-derecha">
+            <button id="boton-borrar" class="btn-borrar"><span>Borrar</span></button>
+
+            <button id="boton-copiar" class="btn-copy"><span>Copiar</span></button>
         </div>
         <div id="botones-izquierda">
-            <button class="ui-btn" id="boton-encriptar">
+            <button class="btn-encriptar" id="boton-encriptar">
                 <span>Encriptar</span>
             </button>
-            <button class="ui-btn2" id="boton-desencriptar">
+            <button class="btn-desencriptar" id="boton-desencriptar">
                 <span>Desencriptar</span>
             </button>
         </div>
     </main>
     <footer>
-        <a id="github" href="https://github.com/DarkLink619" target="_blank"><img src="./assets/github.png"></a>
-        <p>&copy Luca Aguilar 2023</p>
-        <a id="linkedin" href="https://www.linkedin.com/in/luca-aguilar/" target="_blank"><img src="./assets/linkedin.png"></a>
+      <a id="github" href="https://github.com/DarkLink619" target="_blank"><img src="./assets/github.png"></a>
+      <a id="linkedin" href="https://www.linkedin.com/in/luca-aguilar/" target="_blank"><img src="./assets/linkedin.png"></a>
+      <p>&copy Luca Aguilar 2023</p>
     </footer>
-    <script src="https://kit.fontawesome.com/5851e8c68f.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./scripts/index.js"></script>
 </body>
